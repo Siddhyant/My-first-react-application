@@ -12,7 +12,7 @@ const Singleproduct = ({ product }) => {
   return (
     <div>
       <div className="Myimg">
-        <img src={thumbnail} />
+        <img src={thumbnail} alt="productImg"/>
       </div>
       <div>
         <p>id:{id}</p>
