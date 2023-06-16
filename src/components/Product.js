@@ -3,29 +3,29 @@ import Singleproduct from "./Singleproduct";
 import axios from "axios";
 
 const Product = () => {
-  const [load, setLoad] = useState(false);
+  // const [load, setLoad] = useState(false);
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
   const [CurCategory, setCurCategory] = useState("");
 
   const getCategories = async () => {
-    setLoad(true);
+    // setLoad(true);
     let response = await axios.get("https://dummyjson.com/products/categories");
     setCategories(response.data);
-    setLoad(false);
+    // setLoad(false);
   };
 
   const getProduct = async (category) => {
     setCurCategory(category);
 
-    setLoad(false);
+    // setLoad(false);
     let response = await axios.get(
       `https://dummyjson.com/products/category/${category}`
     );
     console.log(response);
     // let {products} = data
     setProducts(response.data.products);
-    setLoad(false);
+    // setLoad(false);
   };
 
 
@@ -41,7 +41,7 @@ const Product = () => {
           return (
             <button
               key={index}
-              className={`${CurCategory == category ? "btnactive" : ""}`}
+              className={`${CurCategory === category ? "btnactive" : ""}`}
               onClick={() => getProduct(category)}>
               {category}
             </button>

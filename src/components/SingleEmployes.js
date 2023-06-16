@@ -15,7 +15,7 @@ const SingleEmployes = ({ data }) => {
     <div className="template">
       <div className="cards">
         <div className="imageS">
-          <img src={`${data.src}`} />
+          <img src={`${data.src}`} alt="cardImage"/>
         </div>
         <div class="name">
           {/* <label for="">Name:</label> */}

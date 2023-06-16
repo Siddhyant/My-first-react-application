@@ -16,10 +16,10 @@ const Header = (  {dark,setDark}  ) => {
         </div>
         <Menu />
         <button>
-          <a href="#"> Get started</a>
+          <a href="/"> Get started</a>
         </button>
         <div className="content-items">
-          <img src="https://assets.entrepreneur.com/content/3x2/2000/20150429160658-website-traffic.jpeg" />
+          <img src="https://assets.entrepreneur.com/content/3x2/2000/20150429160658-website-traffic.jpeg" alt="logo"/>
         </div>
         <button onClick={toggleDark}>Dark</button>
       </header>

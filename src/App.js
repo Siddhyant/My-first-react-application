@@ -1,7 +1,7 @@
 import React, { useState }  from "react";
 import Header from "./components/Header";
- import Navbar from './components/Navbar'
- import TextUtilsForm from './components/TextUtilsForm'
+//  import Navbar from './components/Navbar'
+//  import TextUtilsForm from './components/TextUtilsForm'
 import Footer from "./components/Footer";
 import "./components/Style.css"
 import Counter from "./components/Mypractice";
