@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box ;
+    font-family:arial;
+}
+/* .mystopwat{
+    background-color: #85bcca;
+
+} */
+.stopwatch-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

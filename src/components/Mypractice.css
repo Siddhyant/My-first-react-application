@@ -1,0 +1,10 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    box-sizing: border-box ;
+    font-family:arial;
+}
+.stopwatch-one{
+    background-color: #85bcca;
+}

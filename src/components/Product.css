@@ -1,0 +1,21 @@
+.Myimg{
+    display: flex;
+    /* flex-wrap: wrap; */
+    -ms-flex-align: center;
+
+
+    /* width: 200px;
+    height: 200px; */
+}
+img{
+    width: 200px;
+}
+p{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+.btnactive{
+    background-color: aqua;
+
+}
